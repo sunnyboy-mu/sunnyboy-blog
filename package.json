@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev --host 0.0.0.0 --port 3000",
+    "dev-clear": "vitepress dev --host 0.0.0.0 --port 3000 --clear-cache",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "sass": "^1.81.0",
+    "vitepress": "^1.5.0"
+  }
+}

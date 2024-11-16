@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "types": ["node"], // 确保这里包含 "node",
+    "baseUrl": "./"
+  },
+  "include": [".vitepress/types/*.d.ts", ".vitepress/components/*.vue"],
+  "exclude": ["node_modules"]
+}
