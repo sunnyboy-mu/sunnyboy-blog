@@ -38,6 +38,6 @@ export const navbar = defineNavbarConfig([
     text: "应用",
     link: "/application/",
     activeMatch: "/application/",
-    icon: "icon-park:application-one",
+    icon: "icon-park-outline:application-one",
   },
 ]);

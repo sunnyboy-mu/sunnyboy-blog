@@ -1,5 +1,5 @@
 ---
-icon: icon-park:application-one
+icon: icon-park-outline:application-one
 title: 应用
 ---
 
