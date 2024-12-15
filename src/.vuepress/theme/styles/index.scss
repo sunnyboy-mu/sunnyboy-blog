@@ -1,0 +1,69 @@
+@import url(./custom.css);
+@import url(./markdown.scss);
+
+/* 注册字体 */
+@font-face {
+  font-family: "PRshouxie";
+  src: url("/assets/font/002.woff2") format("woff2"),
+    url("/assets/font/001.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ZWZT";
+  src: url("/assets/font/003.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "ZWZT";
+}
+
+// 主页 banner
+.vp-home-banner {
+  .content {
+    .hero-name {
+      font-family: "PRshouxie";
+    }
+    .hero-tagline,
+    .hero-text {
+      font-family: "ZWZT";
+    }
+  }
+}
+
+// 导航
+.vp-navbar {
+  .navbar-menu-link {
+    font-family: "ZWZT";
+    font-size: 16px;
+  }
+}
+
+// 正文
+.vp-doc {
+  & > div > p {
+    text-indent: 2em;
+  }
+  & > div > p:has(> img) {
+    text-indent: 0;
+  }
+  & > div > p:has(> strong) {
+    text-indent: 0;
+  }
+}
+
+.vp-doc-container.is-blog {
+  background-image: linear-gradient(
+      90deg,
+      rgba(159, 219, 252, 0.15) 3%,
+      transparent 0
+    ),
+    linear-gradient(1turn, rgba(159, 219, 252, 0.15) 3%, transparent 0);
+  background-size: 20px 20px;
+  background-position: 50%;
+}
