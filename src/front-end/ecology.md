@@ -32,6 +32,12 @@ tags:
   <LinkCard title="无界" href="https://wujie-micro.github.io/doc/" icon="https://wujie-micro.github.io/doc/wujie.png" >
   极致的微前端框架；基于 WebComponent 容器 + iframe 沙箱
   </LinkCard>
+  <LinkCard title="Garfish" href="https://www.garfishjs.org/" icon="https://icon.bqb.cool/?url=www.garfishjs.org" >
+  含构建微前端系统时所需要的基本能力，任意前端框架均可使用。接入简单，可轻松将多个前端应用组合成内聚的单个产品
+  </LinkCard>
+  <LinkCard title="Icestark" href="https://micro-frontends.ice.work/" icon="https://icon.bqb.cool/?url=micro-frontends.ice.work" >
+  构建您的下一个微前端应用，或无痛迁移您目前的巨型应用。如同开发 SPA 应用一样简单，不仅解决多个开发团队协同问题，还带来了安全的沙箱、优秀的性能体验。
+  </LinkCard>
 </CardGrid>
 
 ## 2、Components 组件库
@@ -153,6 +159,9 @@ tags:
   </LinkCard>
   <LinkCard title="TextBus" href="https://textbus.io/" icon="https://icon.bqb.cool/?url=textbus.io" >
   支持多前端框架、高性能的富文本库；原生支持 Viewfly、React、Vue 渲染富文本
+  </LinkCard>
+  <LinkCard title="Autofit.js" href="https://auto-plugin.github.io/index/autofit.js/" icon="https://auto-plugin.github.io/index/autofit.js/logo.png" >
+  迄今为止最易用的自适应工具；大屏适配仅需一行代码
   </LinkCard>
 </CardGrid>
 
