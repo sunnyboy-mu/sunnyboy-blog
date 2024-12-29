@@ -46,15 +46,15 @@ body {
 
 // 正文
 .vp-doc {
-  & > div > p {
-    text-indent: 2em;
-  }
-  & > div > p:has(> img) {
-    text-indent: 0;
-  }
-  & > div > p:has(> strong) {
-    text-indent: 0;
-  }
+  // & > div > p {
+  //   text-indent: 2em;
+  // }
+  // & > div > p:has(> img) {
+  //   text-indent: 0;
+  // }
+  // & > div > p:has(> strong) {
+  //   text-indent: 0;
+  // }
 }
 
 .vp-doc-container.is-blog {

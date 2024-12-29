@@ -47,6 +47,9 @@ title: 书签
   <LinkCard title="爬虫工具库" href="https://spidertools.cn" icon="https://icon.bqb.cool/?url=spidertools.cn" >
   专为爬虫工程师打造的在线工具库，集合了爬虫工程师常用的工具
   </LinkCard>
+  <LinkCard title="AI Colors" href="https://aicolors.co/" icon="https://icon.bqb.cool/?url=aicolors.co" >
+  AI Colors 调色板生成器-浏览、编辑、可视化和生成独特的颜色选项板
+  </LinkCard>
 </CardGrid>
 
 ## 学习园地
@@ -94,5 +97,8 @@ title: 书签
   </LinkCard>
   <LinkCard title="简历下载" href="https://jianlixiazai.cn/" icon="https://icon.bqb.cool/?url=jianlixiazai.cn" >
   专业简历模板 · WORD格式可编辑 · 简约大方效率高
+  </LinkCard>
+  <LinkCard title="Pixabay" href="https://pixabay.com/zh/" icon="https://icon.bqb.cool/?url=pixabay.com/zh/" >
+  精彩的免版税图片和免版税库存
   </LinkCard>
 </CardGrid>
