@@ -231,12 +231,16 @@ export default {
         this.$emit("change", val);
       }
     },
-    handleCurrentChange(data) {
-      if (!this.multiple) {
-        this.$emit("update:value", data[this.nodeKey]);
-        this.$emit("change", data[this.nodeKey]);
-        this.$refs.selectRef.blur();
+    handleCurrentChange(data, node) {
+      if (this.multiple) {
+        return;
       }
+      if (this.checkStrictly && data.children?.length) {
+        return;
+      }
+      this.$emit("input", data[this.nodeKey]);
+      this.$emit("change", data[this.nodeKey]);
+      this.$refs.selectRef.blur();
     },
 
     /**
