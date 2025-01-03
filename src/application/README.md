@@ -9,6 +9,9 @@ title: 应用
   <LinkCard title="动漫共和国" href="https://p3-ppx.byteimg.com/obj/ez-data/17308145723668a5292bb99" icon="https://mdn.alipay.com/wsdk/img?fileid=A*jvl7RZu2Cw0AAAAAAAAAAAAAAfYuAQ&" >
   让优质动漫触手可及，永久免费！(animerep.com)
   </LinkCard>
+  <LinkCard title="omofun" href="https://www.omoo.app/" icon="https://icon.bqb.cool/?url=www.omoo.app" >
+  ACG动漫-ACG动画世界
+  </LinkCard>
   <LinkCard title="PixPin" href="https://pixpinapp.com/" icon="https://icon.bqb.cool/?url=pixpinapp.com" >
   功能强大使用简单的截图/贴图工具，帮助你提高效率
   </LinkCard>
