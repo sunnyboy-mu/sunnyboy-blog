@@ -21,6 +21,9 @@ title: 书签
   <LinkCard title="NodeLoc" href="https://www.nodeloc.com/" icon="https://icon.bqb.cool/?url=www.nodeloc.com" >
   一个关注于互联网的交流论坛，主要内容包括但不限于主机,节点,技术,域名,建站,评测等，NL是一个自由地分享互联网资源的社区。
   </LinkCard>
+  <LinkCard title="远景论坛" href="https://bbs.pcbeta.com/" icon="https://icon.bqb.cool/?url=bbs.pcbeta.com" >
+  前沿科技与智慧生态的极客社区
+  </LinkCard>
 </CardGrid>
 
 ## 效率工具

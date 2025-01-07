@@ -36,6 +36,9 @@
 
   /* 头像大小 */
   --vp-nav-logo-height: 36px;
+  --vp-code-tab-active-text-color: #337ecc;
+  --vp-code-tab-text-hover-color: #337ecc;
+  --vp-code-tab-text-color: #fff;
 }
 
 /** 深色模式 */

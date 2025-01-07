@@ -266,3 +266,7 @@ div[class*="language-"].line-numbers-mode:after {
     transform: rotate(-1turn);
   }
 }
+
+.vp-doc div[class*="language-"].has-collapsed .collapsed-lines::before {
+  background: rgba($color: #ffffff, $alpha: 0.8);
+}
