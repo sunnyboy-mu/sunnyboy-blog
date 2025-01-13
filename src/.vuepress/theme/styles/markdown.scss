@@ -270,3 +270,11 @@ div[class*="language-"].line-numbers-mode:after {
 .vp-doc div[class*="language-"].has-collapsed .collapsed-lines::before {
   background: rgba($color: #ffffff, $alpha: 0.8);
 }
+
+.vp-doc .vp-tab {
+  padding: 0;
+  div[class*="language-"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}

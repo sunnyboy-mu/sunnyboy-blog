@@ -108,6 +108,56 @@ git clone <url>
 git clone -b <branch-name> <url>
 ```
 
+### 3.2、Tag 标签
+
+1.  查看标签
+
+```bash
+git tag
+```
+
+---
+
+Windows 系统中，在英文输入法下，输入`q`退出 CMD
+
+2.  创建标签
+
+```bash
+git tag <tag-name>
+```
+
+3.  删除标签
+
+```bash
+# 删除本地标签
+git tag -d <tag-name>
+
+# 删除远程标签
+git push origin :refs/tags/<tag-name>
+```
+
+4.  推送标签
+
+```bash
+# 推送指定未提交的标签到远程仓库
+git push <tag-name>
+
+# 推送所有未提交的标签到远程仓库
+git push --tags
+
+# 推送所有标签到远程仓库
+git push origin --tags
+
+# 推送指定标签到远程仓库
+git push origin <tag-name>
+```
+
+5.  切换标签
+
+```bash
+git checkout <tag-name>
+```
+
 ## gitignore 规则
 
 > `.gitignore`文件：告知 Git 哪些文件不需要添加到版本管理中
