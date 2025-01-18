@@ -24,6 +24,9 @@ title: 应用
   <LinkCard title="AB 下载管理器" href="https://abdownloadmanager.com/" icon="https://icon.bqb.cool/?url=abdownloadmanager.com" >
   通过与浏览器的无缝集成从任何地方轻松下载文件，享受快速、免费的下载体验
   </LinkCard>
+  <LinkCard title="Bypass-分流抢票" href="https://www.bypass.cn/" icon="https://icon.bqb.cool/?url=www.bypass.cn" >
+  一款完全免费的抢票软件，全程自动抢票、自动抢候补、整点抢预售、稳定捡漏。
+  </LinkCard>
 </CardGrid>
 
 ## 开发工具
