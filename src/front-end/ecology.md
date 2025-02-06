@@ -10,6 +10,9 @@ tags:
 <LinkCard title="MDN Web Docs" href="https://developer.mozilla.org/zh-CN/" icon="https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png"  >
 自2005年以来，记录web技术，包括CSS、HTML和JavaScript
 </LinkCard>
+<LinkCard title="VoidZero" href="https://voidzero.dev/" icon="https://voidzero.dev/favicon.svg"  >
+下一代Web工具
+</LinkCard>
 
 ## 1、Framework 框架
 
@@ -177,6 +180,12 @@ tags:
   <LinkCard title="TanStack" href="https://tanstack.com/" icon="https://icon.bqb.cool/?url=tanstack.com" >
   无头、类型安全且强大的Web应用程序、路由、状态管理、数据可视化、数据网格/表格等工具
   </LinkCard>
+  <LinkCard title="NumberFlow" href="https://number-flow.barvian.me/vue" icon="https://icon.bqb.cool/?url=number-flow.barvian.me" >
+  一个动画数字组件。无依赖性。无障碍。可定制的。
+  </LinkCard>
+  <LinkCard title="NProgress" href="https://ricostacruz.com/nprogress/" icon="https://icon.bqb.cool/?url=ricostacruz.com" >
+  纳米级进度条。采用逼真的涓滴动画，让您的用户相信正在发生什么！
+  </LinkCard>
 </CardGrid>
 
 ---
@@ -220,6 +229,9 @@ tags:
   <LinkCard title="Chart.js" href="https://chartjs.cn/" icon="https://icon.bqb.cool/?url=chartjs.cn" >
   用于现代网络的简单而灵活的 JavaScript 图表库
   </LinkCard>
+  <LinkCard title="DataV - Vue3" href="https://datav-vue3.netlify.app/" icon="https://icon.bqb.cool/?url=datav-vue3.netlify.app" >
+  支持 Vue3 + Vite 的 DataV 组件库
+  </LinkCard>
 </CardGrid>
 
 ## 6、Icon 图标
@@ -233,5 +245,13 @@ tags:
   </LinkCard>
   <LinkCard title="Font Awesome" href="https://fa6.dashgame.com/" icon="https://icon.bqb.cool/?url=fa6.dashgame.com" >
   一款专业的互联网图标库和工具套件，受到数百万设计师、开发者和内容创作者的青睐，并广泛使用
+  </LinkCard>
+</CardGrid>
+
+## 7、Animation 动画
+
+<CardGrid>
+  <LinkCard title="Motion Vue" href="https://motion.unovue.com/" icon="https://motion.unovue.com/logo.svg" >
+  现代web应用程序的简单、功能强大且性能优异的动画
   </LinkCard>
 </CardGrid>

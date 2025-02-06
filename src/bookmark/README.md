@@ -104,4 +104,7 @@ title: 书签
   <LinkCard title="Pixabay" href="https://pixabay.com/zh/" icon="https://icon.bqb.cool/?url=pixabay.com/zh/" >
   精彩的免版税图片和免版税库存
   </LinkCard>
+  <LinkCard title="优品PPT" href="https://www.ypppt.com/" icon="https://www.ypppt.com/favicon.ico" >
+  一个有情怀的免费PPT模板下载网站！
+  </LinkCard>
 </CardGrid>
