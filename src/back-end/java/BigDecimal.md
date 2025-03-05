@@ -3,6 +3,8 @@ icon: carbon:character-decimal
 title: BigDecimal
 tags:
   - BigDecimal
+createTime: 2024/12/15 16:42:50
+permalink: /back-end/java/BigDecimal/
 ---
 
 <!-- # BigDecimal -->

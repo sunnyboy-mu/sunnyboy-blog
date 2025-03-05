@@ -3,6 +3,8 @@ icon: logos:spring-icon
 title: SpringBoot
 tags:
   - SpringBoot
+createTime: 2024/12/15 16:42:50
+permalink: /back-end/java/springboot/
 ---
 
 <!-- # SpringBoot -->

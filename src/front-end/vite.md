@@ -3,6 +3,8 @@ icon: skill-icons:vite-light
 title: Vite
 tags:
   - Vite
+createTime: 2024/12/15 16:51:19
+permalink: /front-end/vite/
 ---
 
 <!-- # Vite -->

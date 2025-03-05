@@ -266,7 +266,9 @@ div[class*="language-"].line-numbers-mode:after {
     transform: rotate(-1turn);
   }
 }
-
+.vp-doc div[class*="language-"].has-collapsed .collapsed-lines {
+  opacity: 0.5;
+}
 .vp-doc div[class*="language-"].has-collapsed .collapsed-lines::before {
   background: rgba($color: #ffffff, $alpha: 0.8);
 }
@@ -276,5 +278,17 @@ div[class*="language-"].line-numbers-mode:after {
   div[class*="language-"] {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+  }
+}
+
+.vp-doc {
+  h1 {
+    display: none;
+  }
+}
+
+#VPContent {
+  .vp-breadcrumb {
+    display: none;
   }
 }

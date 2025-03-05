@@ -1,6 +1,8 @@
 ---
 title: Git
 icon: skill-icons:git
+createTime: 2024/12/15 14:39:46
+permalink: /operations/git/
 ---
 
 <!-- # Git -->

@@ -3,29 +3,50 @@ import { SidebarMulti } from "vuepress-theme-plume";
 export default {
   "/front-end/": [
     {
-      text: "CSS小知识",
-      icon: "skill-icons:css",
-      link: "css",
+      text: "CSS指南",
+      icon: "icon-logo-css",
+      prefix: "css/",
+      collapsed: true,
+      items: [
+        {
+          text: "Typography 排版",
+          icon: "icon-typography",
+          link: "typography",
+        },
+        {
+          text: "Layout 布局",
+          icon: "icon-layout",
+          link: "layout",
+        },
+        {
+          text: "Animation 动画",
+          icon: "icon-animation",
+          link: "animation",
+        },
+      ],
     },
     {
-      text: "JS小知识",
-      icon: "skill-icons:javascript",
-      link: "JavaScript",
+      text: "JavaScript指北",
+      icon: "icon-java-script",
+      prefix: "javascript/",
+      collapsed: true,
+      items: [
+        {
+          text: "ES6 扩展",
+          icon: "icon-es6",
+          link: "es6",
+        },
+        {
+          text: "Tools 工具函数",
+          icon: "icon-tools",
+          link: "tools",
+        },
+      ],
     },
     {
-      text: "JS工具库",
-      icon: "arcticons:autotools",
-      link: "js-utils",
-    },
-    {
-      text: "Vue",
-      icon: "skill-icons:vuejs-light",
-      link: "vue",
-    },
-    {
-      text: "Vue-Hooks",
-      icon: "material-symbols:webhook",
-      link: "vue3-hooks",
+      text: "Vue 生态",
+      icon: "icon-vuejs",
+      link: "vue/",
     },
     {
       text: "Vite",
@@ -36,11 +57,6 @@ export default {
       text: "微信小程序",
       icon: "ri:mini-program-line",
       link: "miniprogram",
-    },
-    {
-      text: "Uni-app",
-      icon: "gravity-ui:math-union-shape",
-      link: "uni-app",
     },
     {
       text: "Element-ui",

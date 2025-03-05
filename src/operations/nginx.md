@@ -1,6 +1,8 @@
 ---
 icon: vscode-icons:file-type-nginx
 title: Nginx
+createTime: 2024/12/15 14:39:46
+permalink: /operations/nginx/
 ---
 
 <!-- # Nginx -->

@@ -2,6 +2,7 @@
 title: ZSH 终端(Win)
 createTime: 2024/11/17 11:10:09
 icon: qlementine-icons:key-cmd-16
+permalink: /operations/zsh/
 ---
 
 <!-- # ZSH 终端(Win) -->

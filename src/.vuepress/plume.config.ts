@@ -8,7 +8,9 @@ import sidebar from "./sidebar";
 export default defineThemeConfig({
   logo: "/logo.png",
   outline: "deep",
-
+  // autoFrontmatter: {
+  //   title: false,
+  // },
   profile: {
     avatar: "/logo.png",
     name: "小沐沐吖",

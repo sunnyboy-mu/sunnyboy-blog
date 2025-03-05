@@ -3,6 +3,8 @@ icon: skill-icons:vscode-light
 title: VsCode
 tags:
   - VsCode
+createTime: 2024/12/15 15:40:24
+permalink: /ide/VsCode/
 ---
 
 <!-- # VsCode -->

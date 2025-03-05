@@ -3,15 +3,14 @@ icon: mdi:ecology
 title: 前端生态圈
 tags:
   - 生态
+createTime: 2025/02/07 15:54:56
+permalink: /front-end/ecology/
 ---
 
 # 前端生态圈
 
 <LinkCard title="MDN Web Docs" href="https://developer.mozilla.org/zh-CN/" icon="https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png"  >
 自2005年以来，记录web技术，包括CSS、HTML和JavaScript
-</LinkCard>
-<LinkCard title="VoidZero" href="https://voidzero.dev/" icon="https://voidzero.dev/favicon.svg"  >
-下一代Web工具
 </LinkCard>
 
 ## 1、Framework 框架

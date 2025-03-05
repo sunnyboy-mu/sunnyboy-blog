@@ -1,60 +1,74 @@
 import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export const navbar = defineNavbarConfig([
-  { text: "首页", link: "/", icon: "ic:outline-home" },
-  { text: "博客", link: "/blog/", icon: "ri:blogger-line" },
+  { text: "首页", link: "/", icon: "icon-home" },
+  { text: "博客", link: "/blog/", icon: "icon-boke" },
   {
-    text: "开发",
-    icon: "fluent:developer-board-lightning-20-filled",
+    text: "前端",
+    icon: "icon-qianduan",
+    activeMatch: "/front-end/",
+    prefix: "/front-end/",
     items: [
       {
-        text: "前端",
-        link: "/front-end/css",
-        icon: "carbon:ibm-watsonx-code-assistant-for-z-refactor",
-        activeMatch: "/front-end/",
+        text: "CSS指南",
+        icon: "icon-logo-css",
+        link: "css/typography",
+        activeMatch: "/front-end/css/",
       },
+      {
+        text: "JavaScript指北",
+        icon: "icon-java-script",
+        link: "javascript/es6",
+        activeMatch: "/front-end/javascript/",
+      },
+    ],
+  },
+  {
+    text: "开发",
+    icon: "icon-kaifa",
+    items: [
       {
         text: "后端",
         link: "/back-end/java/BigDecimal",
         activeMatch: "/back-end/",
-        icon: "grommet-icons:codepen",
+        icon: "icon-houduan",
       },
       {
         text: "运维",
         link: "/operations/nginx",
         activeMatch: "/operations/",
-        icon: "ix:operating-system",
+        icon: "icon-yunweiguanli",
       },
       {
         text: "编辑器",
         link: "/ide/VsCode",
         activeMatch: "/ide/",
-        icon: "fluent:developer-board-16-regular",
+        icon: "icon-bianjiqi",
         noIcon: true,
       },
     ],
   },
   {
     text: "随笔",
-    icon: "mingcute:live-photo-line",
+    icon: "icon-suibi",
     items: [
       {
         text: "书签",
         link: "/bookmark/",
         activeMatch: "/bookmark/",
-        icon: "iconoir:bookmark-book",
+        icon: "icon-24gl-bookmarks2",
       },
       {
         text: "应用",
         link: "/application/",
         activeMatch: "/application/",
-        icon: "icon-park-outline:application-one",
+        icon: "icon-yingyong",
       },
       {
         text: "书苑",
         link: "/books/",
         activeMatch: "/books/",
-        icon: "basil:book-outline",
+        icon: "icon-icon_datas",
       },
     ],
   },

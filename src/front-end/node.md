@@ -3,6 +3,8 @@ icon: logos:nodejs-icon
 title: Node
 tags:
   - Node
+createTime: 2024/12/15 16:51:19
+permalink: /front-end/node/
 ---
 
 <!-- # Node -->
@@ -22,12 +24,6 @@ npm config set registry https://mirrors.huaweicloud.com/repository/npm/
 ```bash
 npm config set registry https://registry.npmmirror.com
 ```
-
----
-
-**扩展**
-
-[淘宝 NPM 镜像加速包管理工具 - tbify](http://npm.taobao.org/package/tbify/home)
 
 ### 1.2、常用命令
 

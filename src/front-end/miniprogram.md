@@ -3,6 +3,8 @@ icon: ri:mini-program-line
 title: 微信小程序
 tags:
   - 微信小程序
+createTime: 2025/02/07 15:54:56
+permalink: /front-end/miniprogram/
 ---
 
 <!-- # 微信小程序 -->
