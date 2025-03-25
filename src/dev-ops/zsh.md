@@ -13,15 +13,15 @@ icon: devicon-plain:zsh
 
 1. 下载[ZSH 安装包](https://packages.msys2.org/package/zsh?repo=msys&variant=x86_64)
 
-![image-20240325210328605](./images/image-20240325210328605.png)
+![image-20240325210328605](https://upyun-oss.mu00.cn/2025/03/25//1742868383128.png)
 
 2. 将文件解压在`Git`根目录
 
-![image-20240325210504285](./images/image-20240325210504285.png)
+![image-20240325210504285](https://upyun-oss.mu00.cn/2025/03/25//1742868498150.png)
 
 3. 右键打开 `Git bash` 输入 `zsh`，出现下图则安装成功
 
-![image-20240325210600386](./images/image-20240325210600386.png)
+![image-20240325210600386](https://upyun-oss.mu00.cn/2025/03/25//1742868531092.png)
 
 4. 输入 `0` 结束并生成 `.zshrc` 配置文件
 
@@ -56,7 +56,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 > 安装 ozsh 报错，可以把`raw.githubusercontent.com`换成`raw.gitmirror.com`(镜像网站)即可
 
-![image-20240325211412843](./images/image-20240325211412843.png)
+![image-20240325211412843](https://upyun-oss.mu00.cn/2025/03/25//1742868550658.png)
 
 > 最后一行的 `ERROR` 可以忽略
 
@@ -70,7 +70,7 @@ vim ~/.zshrc
 
 > `Oh My Zsh` 安装默之后，默认使用主题是 `robbyrussell`，可以修改 `.zshrc` 配置中的 `ZSH_THEME` 字段，所有可用主题可参考[ohmyzsh 官方文档](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
-![image-20240325211709162](./images/image-20240325211709162.png)
+![image-20240325211709162](https://upyun-oss.mu00.cn/2025/03/25//1742868560305.png)
 
 2. 重载配置
 
@@ -100,7 +100,7 @@ vim ~/.zshrc
 
 - 在`plugins=(...)`中添加插件，以空格进行分隔
 
-![image-20240325212005697](./images/image-20240325212005697.png)
+![image-20240325212005697](https://upyun-oss.mu00.cn/2025/03/25//1742868573686.png)
 
 3. 保持并重启 ZSH
 
