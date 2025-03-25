@@ -8,17 +8,6 @@ import sidebar from "./sidebar";
 export default defineThemeConfig({
   logo: "/logo.png",
   outline: "deep",
-  // autoFrontmatter: {
-  //   title: false,
-  // },
-  profile: {
-    avatar: "/logo.png",
-    name: "小沐沐吖",
-    description: "一个小白立志成为全栈开发工程师的的成长物语！",
-    circle: true,
-    location: "ZhengZhou, China",
-    organization: "Sunnyboy-Mu",
-  },
   social: [
     {
       icon: {

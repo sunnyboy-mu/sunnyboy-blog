@@ -1,7 +1,5 @@
 import plumeTheme from "vuepress-theme-plume";
 import footer from "./footer";
-import plugins from "./plugins";
-import blog from "./blog";
 
 export default plumeTheme({
   // 添加您的部署域名
@@ -11,12 +9,17 @@ export default plumeTheme({
   autoFrontmatter: false,
   editLink: false,
 
-  // 博客配置
-  blog,
+  blog: false,
 
   // 底部信息
   footer,
 
   // 插件
-  plugins,
+  plugins: {
+    comment: false,
+    shiki: {
+      theme: "one-dark-pro",
+      collapsedLines: 15,
+    },
+  },
 });

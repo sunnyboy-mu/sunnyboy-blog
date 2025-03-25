@@ -1,121 +1,131 @@
-import { SidebarMulti } from "vuepress-theme-plume";
+import { ThemeSidebarMulti } from "vuepress-theme-plume";
 
 export default {
-  "/front-end/": [
+  "/web/": [
     {
       text: "CSS指南",
-      icon: "icon-logo-css",
+      icon: "bxl:css3",
       prefix: "css/",
       collapsed: true,
       items: [
         {
           text: "Typography 排版",
-          icon: "icon-typography",
+          icon: "tabler:clipboard-typography",
           link: "typography",
         },
         {
           text: "Layout 布局",
-          icon: "icon-layout",
+          icon: "mingcute:layout-7-fill",
           link: "layout",
         },
         {
           text: "Animation 动画",
-          icon: "icon-animation",
+          icon: "tdesign:animation-1",
           link: "animation",
         },
       ],
     },
     {
       text: "JavaScript指北",
-      icon: "icon-java-script",
+      icon: "fluent:javascript-16-filled",
       prefix: "javascript/",
       collapsed: true,
       items: [
         {
           text: "ES6 扩展",
-          icon: "icon-es6",
+          icon: "material-symbols:javascript-rounded",
           link: "es6",
         },
         {
+          text: "Server-sent events",
+          icon: "stash:link-solid",
+          link: "server-sent-events",
+        },
+        {
+          text: "File Api",
+          icon: "mage:file-2",
+          link: "file-api",
+        },
+        {
           text: "Tools 工具函数",
-          icon: "icon-tools",
+          icon: "flowbite:tools-outline",
           link: "tools",
         },
       ],
     },
-    {
-      text: "Vue 生态",
-      icon: "icon-vuejs",
-      link: "vue/",
-    },
-    {
-      text: "Vite",
-      icon: "skill-icons:vite-light",
-      link: "vite",
-    },
-    {
-      text: "微信小程序",
-      icon: "ri:mini-program-line",
-      link: "miniprogram",
-    },
-    {
-      text: "Element-ui",
-      icon: "logos:element",
-      link: "element-ui",
-    },
-    {
-      text: "Node",
-      icon: "logos:nodejs-icon",
-      link: "node",
-    },
-    {
-      text: "生态",
-      icon: "mdi:ecology",
-      link: "ecology",
-    },
   ],
-  "/back-end/": [
+  "/web-high/": [
     {
-      text: "Java",
-      icon: "devicon:java",
+      text: "组件库扩展",
+      icon: "mingcute:components-line",
+      prefix: "lib-extend/",
       collapsed: true,
-      prefix: "java/",
       items: [
         {
-          text: "BigDecimal",
-          icon: "carbon:character-decimal",
-          link: "BigDecimal",
+          text: "element",
+          icon: "logos:element",
+          link: "element",
         },
         {
-          text: "SpringBoot",
-          icon: "logos:spring-icon",
-          link: "springboot",
+          text: "Element Plus",
+          icon: "ep:element-plus",
+          link: "element-plus",
+        },
+        {
+          text: "自定义 Vue 组件",
+          icon: "flowbite:vue-solid",
+          link: "custom-for-vue",
+        },
+      ],
+    },
+    {
+      text: "微前端",
+      icon: "circum:microchip",
+      prefix: "micro-front-end/",
+      collapsed: true,
+      items: [
+        {
+          text: "qiankun 乾坤",
+          icon: "mdi:access-point-network",
+          link: "qiankun",
         },
       ],
     },
   ],
-  "/operations/": [
+  "/fe-engineering/": [
     {
-      text: "Nginx",
-      icon: "icon-nginx",
-      link: "nginx",
+      text: "初始NodeJS",
+      icon: "lineicons:nodejs",
+      link: "nodejs",
     },
     {
-      text: "Git",
-      icon: "icon-git",
-      link: "git",
+      text: "Vite",
+      icon: "lineicons:vite",
+      prefix: "vite/",
+      collapsed: true,
+      items: "auto",
     },
     {
-      text: "ZSH",
-      icon: "icon-cmd",
-      link: "zsh",
-    },
-  ],
-  "/ide/": [
-    {
-      text: "VsCode",
-      icon: "skill-icons:vscode-light",
-      link: "VsCode",
+      text: "实用技巧",
+      icon: "material-symbols:tools-installation-kit-outline",
+      prefix: "tools/",
+      collapsed: true,
+      items: "auto",
     },
   ],
-} as SidebarMulti;
+  "/dev-ops/": "auto",
+  "/about/": [
+    {
+      text: "书苑",
+      icon: "iconoir:book",
+      link: "books",
+    },
+    {
+      text: "小记",
+      icon: "hugeicons:note",
+      prefix: "notes/",
+      collapsed: true,
+      items: "auto",
+    },
+  ],
+} as ThemeSidebarMulti;

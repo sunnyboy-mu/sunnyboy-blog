@@ -1,3 +1,18 @@
+---
+createTime: 2025-03-25
+---
+
+# 自定义 Vue 组件
+
+1、Sparkles Text
+
+> 这是一款动态文本，可产生平滑过渡的连续火花，非常适合用动画星星来突出文本。
+
+![Sparkles Text](https://upyun-oss.mu00.cn/2025/03/25//1742862872702.gif)
+
+## 1.1、源代码
+
+```vue
 <template>
   <div :class="[className, 'sparkles-text']">
     <span class="svg-list">
@@ -111,3 +126,14 @@ onMounted(() => {
   animation-duration: 300ms;
 }
 </style>
+```
+
+## 1.2、食用文档
+
+| **Prop**        | **Type** | **Default**                             | **Description**          |
+| --------------- | -------- | --------------------------------------- | ------------------------ |
+| `text`          | `string` | `-`                                     | 显示的文本               |
+| `className`     | `string` | `-`                                     | 应用于sparkles文本的类名 |
+| `sparklesCount` | `number` | `10`                                    | 显示在文本上的闪烁个数   |
+| `colors`        | `object` | `{first: '#A07CFE', second: '#FE8FB5'}` | 闪耀的色彩               |
+

@@ -22,7 +22,12 @@ import SparklesText from "./SparklesText.vue";
       <VPImage
         v-if="theme.logo"
         class="logo"
-        :image="{ light: theme.logo, dark: theme.logoDark || theme.logo }"
+        :image="{
+          light: theme.logo,
+          dark: theme.logoDark || theme.logo,
+          width: 36,
+          height: 36,
+        }"
       />
       <SparklesText :sparkles-count="5" :text="site.title"></SparklesText>
 
