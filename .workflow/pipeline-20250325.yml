@@ -1,0 +1,73 @@
+version: '1.0'
+name: pipeline-20250325
+displayName: pipeline-20250325
+triggers:
+  trigger: manual
+  push:
+    branches:
+      precise:
+        - master
+stages:
+  - name: stage-76cf2e71
+    displayName: 打包
+    strategy: naturally
+    trigger: auto
+    executor:
+      - SunnyBoy_mu
+    steps:
+      - step: build@nodejs
+        name: build_nodejs
+        displayName: Nodejs 构建
+        nodeVersion: 21.5.0
+        commands:
+          - '# 打印Node 版本'
+          - node -v
+          - ''
+          - '# 设置NPM源，提升安装速度'
+          - npm config set registry https://registry.npmmirror.com
+          - ''
+          - npm i -g pnpm
+          - pnpm config set registry https://registry.npmmirror.com
+          - ''
+          - '# 执行编译命令'
+          - pnpm install && pnpm run build
+        artifacts:
+          - name: BUILD_ARTIFACT
+            path:
+              - ./dist
+        caches:
+          - ~/.npm
+          - ~/.yarn
+        notify: []
+        strategy:
+          retry: '0'
+  - name: stage-9659907c
+    displayName: 部署
+    strategy: naturally
+    trigger: auto
+    executor:
+      - SunnyBoy_mu
+    steps:
+      - step: deploy@agent
+        name: deploy_agent
+        displayName: 主机部署
+        hostGroupID:
+          ID: ali
+          hostID:
+            - adcbfbc3-77ca-4f60-a2d9-0d8ea7b549cd
+        deployArtifact:
+          - source: build
+            name: dist
+            target: /opt/1panel/apps/openresty/openresty/www/sites/blog.mu00.cn
+            dependArtifact: BUILD_ARTIFACT
+        script:
+          - cd /opt/1panel/apps/openresty/openresty/www/sites/blog.mu00.cn
+          - tar -xzvf dist.tar.gz
+          - rm -rf dist.tar.gz
+          - rm -rf index
+          - mv -f dist index
+          - sudo chmod 0755 /opt/1panel/apps/openresty/openresty/www/sites/blog.mu00.cn/index
+          - echo '部署完成'
+        notify: []
+        strategy:
+          retry: '0'
